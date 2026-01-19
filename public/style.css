@@ -1,0 +1,59 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.auction-container {
+    width: 400px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+    background: #111;
+    border-radius: 10px;
+}
+
+.player-card {
+    margin-top: 20px;
+    padding: 20px;
+    background: #222;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:nth-child(1) {
+    background: orange;
+}
+
+button:nth-child(2) {
+    background: green;
+    color: white;
+}
+
+button:nth-child(3) {
+    background: red;
+    color: white;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: yellow;
+}
